@@ -1,6 +1,6 @@
 # PWI - Product Warehouse and Inventory
 
-PWI is an applicatio to maintain Product, Warehouse and Inventory releated information of a company.
+PWI is an application to maintain Product, Warehouse and Inventory releated information of a company.
 
 #### Tools and Technologies
 - Java 8
