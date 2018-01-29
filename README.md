@@ -8,6 +8,7 @@ PWI is an applicatio to maintain Product, Warehouse and Inventory releated infor
 - Hibernate 4.3.6
 - MySQL 5.1.31
 - Mockito 1.10.19
+- JUnit 4.12
 - Tomcat 8
 
 ## Project Setup
@@ -48,19 +49,19 @@ After starting tomcat following end points can be used to access the application
 
 | Request Type | End Point  | Description |
 | ------------- | ------------- | ------------- |
-| GET | http://***Server_IP***:***Port***/product/ | Get All Products  |
-| GET | http://***Server_IP***:***Port***/product/{id} | Get Product By ID  |
-| GET | http://***Server_IP***:***Port***/product/attributes/{id} | GET Product Attributes By ID  |
-| GET | http://***Server_IP***:***Port***/product/attributes/{id}/warehouse/{warehouseId} | Get Product Attributes By Warehouse ID  |
-| POST | http://***Server_IP***:***Port***/product/ | Add Product  |
-| PUT | http://***Server_IP***:***Port***/product/{id} | Update Product By ID  |
-| DELETE | http://***Server_IP***:***Port***/product/{id} | Delete Product  |
-| GET | http://***Server_IP***:***Port***/warehouse/ | Get All Warehouses  |
-| GET | http://***Server_IP***:***Port***/warehouse/{id} | Get Warehouse By ID  |
-| POST | http://***Server_IP***:***Port***/warehouse/ | Add Warehouse  |
-| PUT | http://***Server_IP***:***Port***/warehouse/{id} | Update Warehouse  |
-| DELETE | http://***Server_IP***:***Port***/warehouse/{id} | Delete Warehouse  |
-| PUT | http://***Server_IP***:***Port***/inventory/stock/{productId} | Update Product Stock  |
-| PUT | http://***Server_IP***:***Port***/inventory/stock/{productId}/warehouse/{warehouseId} | Update Product Stock By Product ID and Warehouse ID |
+| GET | http://***Server_IP***:***Port***/PWI/product/ | Get All Products  |
+| GET | http://***Server_IP***:***Port***/PWI/product/{id} | Get Product By ID  |
+| GET | http://***Server_IP***:***Port***/PWI/product/attributes/{id} | GET Product Attributes By ID  |
+| GET | http://***Server_IP***:***Port***/PWI/product/attributes/{id}/warehouse/{warehouseId} | Get Product Attributes By Warehouse ID  |
+| POST | http://***Server_IP***:***Port***/PWI/product/ | Add Product  |
+| PUT | http://***Server_IP***:***Port***/PWI/product/{id} | Update Product By ID  |
+| DELETE | http://***Server_IP***:***Port***/PWI/product/{id} | Delete Product  |
+| GET | http://***Server_IP***:***Port***/PWI/warehouse/ | Get All Warehouses  |
+| GET | http://***Server_IP***:***Port***/PWI/warehouse/{id} | Get Warehouse By ID  |
+| POST | http://***Server_IP***:***Port***/PWI/warehouse/ | Add Warehouse  |
+| PUT | http://***Server_IP***:***Port***/PWI/warehouse/{id} | Update Warehouse  |
+| DELETE | http://***Server_IP***:***Port***/PWI/warehouse/{id} | Delete Warehouse  |
+| PUT | http://***Server_IP***:***Port***/PWI/inventory/stock/{productId} | Update Product Stock  |
+| PUT | http://***Server_IP***:***Port***/PWI/inventory/stock/{productId}/warehouse/{warehouseId} | Update Product Stock By Product ID and Warehouse ID |
 
 For ensuring,  please refer ***pwi_config.properties*** of the project.
